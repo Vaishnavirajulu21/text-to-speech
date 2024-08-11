@@ -1,0 +1,38 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border_box;
+}
+#container{
+    display:flex;
+    justify-content:center;
+    align-items: center ;
+    height: 100vh;
+    width: 200vh;
+    flex-direction: column;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3crect width='286' height='286' clip-path='url(%26quot%3b%23SvgjsClipPath1001%26quot%3b)' x='707.38' y='348.09' fill='url(%26quot%3b%23SvgjsPattern1002%26quot%3b)' transform='rotate(218.17%2c 850.38%2c 491.09)'%3e%3c/rect%3e%3crect width='265.6' height='265.6' clip-path='url(%26quot%3b%23SvgjsClipPath1003%26quot%3b)' x='1030.73' y='19.1' fill='url(%26quot%3b%23SvgjsPattern1004%26quot%3b)' transform='rotate(100.32%2c 1163.53%2c 151.9)'%3e%3c/rect%3e%3cpath d='M1434.61 467.92a5.6 5.6 0 1 0 7.23-8.56 5.6 5.6 0 1 0-7.23 8.56zM1444.93 455.69a5.6 5.6 0 1 0 7.23-8.55 5.6 5.6 0 1 0-7.23 8.55zM1455.26 443.47a5.6 5.6 0 1 0 7.22-8.56 5.6 5.6 0 1 0-7.22 8.56zM1465.58 431.25a5.6 5.6 0 1 0 7.23-8.56 5.6 5.6 0 1 0-7.23 8.56zM1426.19 502.69a5.6 5.6 0 1 0 7.23-8.56 5.6 5.6 0 1 0-7.23 8.56zM1436.51 490.47a5.6 5.6 0 1 0 7.23-8.56 5.6 5.6 0 1 0-7.23 8.56zM1446.84 478.24a5.6 5.6 0 1 0 7.22-8.56 5.6 5.6 0 1 0-7.22 8.56zM1457.16 466.02a5.6 5.6 0 1 0 7.22-8.56 5.6 5.6 0 1 0-7.22 8.56zM1417.77 537.46a5.6 5.6 0 1 0 7.22-8.56 5.6 5.6 0 1 0-7.22 8.56zM1428.09 525.24a5.6 5.6 0 1 0 7.23-8.56 5.6 5.6 0 1 0-7.23 8.56zM1438.41 513.01a5.6 5.6 0 1 0 7.23-8.55 5.6 5.6 0 1 0-7.23 8.55zM1448.74 500.79a5.6 5.6 0 1 0 7.22-8.56 5.6 5.6 0 1 0-7.22 8.56z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M736.4300000000001 182.33999999999997 L654.75 257.39L646.1488423934754 170.4238423934754z' fill='%23e73635'%3e%3c/path%3e%3ccircle r='78.34196853743816' cx='1343.46' cy='234.85' fill='%23037b0b'%3e%3c/circle%3e%3crect width='120' height='120' clip-path='url(%26quot%3b%23SvgjsClipPath1005%26quot%3b)' x='260.83' y='476.71' fill='url(%26quot%3b%23SvgjsPattern1006%26quot%3b)' transform='rotate(154.89%2c 320.83%2c 536.71)'%3e%3c/rect%3e%3ccircle r='61.6856830354843' cx='693.04' cy='193.77' fill='%23037b0b'%3e%3c/circle%3e%3crect width='240' height='240' clip-path='url(%26quot%3b%23SvgjsClipPath1007%26quot%3b)' x='1274.71' y='256.99' fill='url(%26quot%3b%23SvgjsPattern1008%26quot%3b)' transform='rotate(118.51%2c 1394.71%2c 376.99)'%3e%3c/rect%3e%3crect width='287.64' height='287.64' clip-path='url(%26quot%3b%23SvgjsClipPath1009%26quot%3b)' x='284.54' y='82.36' fill='url(%26quot%3b%23SvgjsPattern1010%26quot%3b)' transform='rotate(279.55%2c 428.36%2c 226.18)'%3e%3c/rect%3e%3ccircle r='71.33206740944432' cx='1339.56' cy='342.65' fill='%23e73635'%3e%3c/circle%3e%3cpath d='M1009.02 405.43a5.6 5.6 0 1 0-9.77-5.48 5.6 5.6 0 1 0 9.77 5.48zM995.07 397.6a5.6 5.6 0 1 0-9.77-5.48 5.6 5.6 0 1 0 9.77 5.48zM981.11 389.78a5.6 5.6 0 1 0-9.77-5.48 5.6 5.6 0 1 0 9.77 5.48zM967.16 381.95a5.6 5.6 0 1 0-9.77-5.48 5.6 5.6 0 1 0 9.77 5.48zM1044.76 407.12a5.6 5.6 0 1 0-9.77-5.48 5.6 5.6 0 1 0 9.77 5.48zM1030.8 399.3a5.6 5.6 0 1 0-9.76-5.48 5.6 5.6 0 1 0 9.76 5.48zM1016.85 391.47a5.6 5.6 0 1 0-9.77-5.48 5.6 5.6 0 1 0 9.77 5.48zM1002.89 383.65a5.6 5.6 0 1 0-9.77-5.48 5.6 5.6 0 1 0 9.77 5.48zM1080.5 408.82a5.6 5.6 0 1 0-9.77-5.48 5.6 5.6 0 1 0 9.77 5.48zM1066.54 400.99a5.6 5.6 0 1 0-9.77-5.48 5.6 5.6 0 1 0 9.77 5.48zM1052.59 393.17a5.6 5.6 0 1 0-9.77-5.48 5.6 5.6 0 1 0 9.77 5.48zM1038.63 385.34a5.6 5.6 0 1 0-9.77-5.48 5.6 5.6 0 1 0 9.77 5.48z' fill='%23e73635'%3e%3c/path%3e%3crect width='144' height='144' clip-path='url(%26quot%3b%23SvgjsClipPath1011%26quot%3b)' x='159.15' y='357.65' fill='url(%26quot%3b%23SvgjsPattern1012%26quot%3b)' transform='rotate(214.86%2c 231.15%2c 429.65)'%3e%3c/rect%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpattern x='0' y='0' width='286' height='13' patternUnits='userSpaceOnUse' id='SvgjsPattern1002'%3e%3crect width='286' height='6.5' x='0' y='0' fill='%23d3b714'%3e%3c/rect%3e%3crect width='286' height='6.5' x='0' y='6.5' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1001'%3e%3ccircle r='71.5' cx='850.38' cy='491.09'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='265.6' height='13.28' patternUnits='userSpaceOnUse' id='SvgjsPattern1004'%3e%3crect width='265.6' height='6.64' x='0' y='0' fill='%23037b0b'%3e%3c/rect%3e%3crect width='265.6' height='6.64' x='0' y='6.64' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1003'%3e%3ccircle r='66.4' cx='1163.53' cy='151.9'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1006'%3e%3cpath d='M3 1L3 5M1 3L5 3' stroke='%23e73635' fill='none' stroke-width='1.13'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1005'%3e%3ccircle r='30' cx='320.83' cy='536.71'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1008'%3e%3cpath d='M0 6L3 0L6 6' stroke='%23d3b714' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1007'%3e%3ccircle r='60' cx='1394.71' cy='376.99'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='287.64' height='8.46' patternUnits='userSpaceOnUse' id='SvgjsPattern1010'%3e%3crect width='287.64' height='4.23' x='0' y='0' fill='%23e73635'%3e%3c/rect%3e%3crect width='287.64' height='4.23' x='0' y='4.23' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1009'%3e%3ccircle r='71.91' cx='428.36' cy='226.18'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1012'%3e%3cpath d='M0 6L3 0L6 6' stroke='%23d3b714' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1011'%3e%3ccircle r='36' cx='231.15' cy='429.65'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+}
+
+h1{
+    font-size:  20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 3px 4px 7px black;
+}
+
+textarea{
+    width: 300px;
+    height: 100px;
+    margin: 25px 0;
+    box-shadow: 5px 6px 10px  black;
+    border: none;
+    outline: none;
+}
+
+button {
+    background: blue;
+    color: white;
+    padding: 15px;
+
+
+}
